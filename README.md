@@ -1,1 +1,1 @@
-# Blockchain_for-_smart_cities_for_waste_management
+# Blockchain_for_waste_management_in_smart_cities
