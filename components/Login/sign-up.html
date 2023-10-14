@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-       
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -42,6 +41,7 @@ label {
 }
 
 input[type="text"],
+input[type="email"],
 input[type="password"] {
     width: 100%;
     padding: 10px;
@@ -61,37 +61,30 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-
-p {
-    text-align: center;
-}
-
-a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-    </style>
+</style>
 </head>
 <body>
     <div class="container">
-        <form action="login.php" method="POST">
-            <h2>Login</h2>
+        <form action="signup.php" method="POST">
+            <h2>Sign Up</h2>
             <div class="input-group">
-                <label for="username">Username or Email</label>
+                <label for="username">Username</label>
                 <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
             </div>
             <div class="input-group">
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" required>
             </div>
-            <button type="submit">Log In</button>
+            <div class="input-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <button type="submit">Sign Up</button>
         </form>
-        <p>Don't have an account? <a href="signup.html">Sign up</a></p>
     </div>
 </body>
 </html>
