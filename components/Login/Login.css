@@ -1,0 +1,25 @@
+.Navbar-container{
+    background-color: rgb(105, 105, 94);
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+.Nav-heading{
+    font-size: 30px;
+    margin-left: -50px;
+    padding: 5px;
+
+}
+.nav-contents{
+    margin-top:17px;
+    text-align: center;
+}

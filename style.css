@@ -1,3 +1,35 @@
-.counter{
-    height: 100px;
+*{
+    padding: 0;
+    margin: 0;
+}
+.Navbar-container{
+    background-color: rgb(64, 35, 87);
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.Nav-heading{
+    font-size: 30px;
+    padding-top: 10px;
+    color: white;
+    padding-left: 20px;
+
+}
+.nav-contents{
+    text-align: center;
+    font-size: 23px;
+    padding: 20px;
+}
+.Nav-menu-list{
+    padding-right: 15px;
+}
+.bg-image{
+    width: 100%;
 }
