@@ -3,11 +3,12 @@
     margin: 0;
 }
 .Navbar-container{
-    background-color: rgb(64, 35, 87);
+    background-color: rgb(49, 27, 67);
     height: 70px;
     width: 100%;
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 a{
@@ -28,7 +29,7 @@ a{
     padding: 20px;
 }
 .Nav-menu-list{
-    padding-right: 20px;
+    padding-right: 25px;
 }
 .bg-image{
     width: 100%;
@@ -39,4 +40,21 @@ a{
     width: 300px;
     border: 1px solid black;
     border-radius: 20px;
+}
+.body-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(230, 221, 238);
+}
+.box2{
+    display: block;
+    margin: 30px;
+}
+.box1{
+    display: block;
+    margin: 30px;
+}
+.box-img{
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px 1px rgb(62, 58, 58);
 }

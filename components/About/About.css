@@ -30,3 +30,17 @@ a{
 .Nav-menu-list{
     padding-right: 15px;
 }
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.card-items{
+    height: 300px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
