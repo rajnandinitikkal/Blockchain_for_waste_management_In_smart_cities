@@ -33,10 +33,3 @@ a{
 .bg-image{
     width: 100%;
 }
-.card-info{
-    display: flex;
-    height: 400px;
-    width: 300px;
-    border: 1px solid black;
-    border-radius: 20px;
-}
