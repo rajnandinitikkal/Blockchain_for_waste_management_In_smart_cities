@@ -34,28 +34,21 @@ a{
 .bg-image{
     width: 100%;
 }
-.card-info{
-    display: flex;
-    height: 400px;
-    width: 300px;
-    border: 1px solid black;
-    border-radius: 20px;
-}
 .body-container{
     display: flex;
     justify-content: space-around;
 }
 .box2{
     display: block;
-    margin: 30px;
+   
 }
 .box1{
     display: block;
     margin: 30px;
 }
 .box-img{
-    border-radius: 20px;
-    box-shadow: 0px 1px 2px 1px rgb(62, 58, 58);
+   margin: 0;
+   padding: 0;
 }
 
 *{
