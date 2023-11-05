@@ -44,14 +44,24 @@ a{
 }
 .box1{
     display: block;
-    margin: 30px;
-   
+    margin: 30px;   
 }
 .box-img{
    margin: 0;
    padding: 0;
 }
-
+.circle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.circle-items{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:1px solid black ;
+    text-align: center;
+}
 .City-Description{
    padding: 10px;
    width: 100%;
