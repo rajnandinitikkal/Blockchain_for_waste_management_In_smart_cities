@@ -52,6 +52,11 @@ a{
    padding: 0;
 }
 
+.City-Description{
+   padding: 10px;
+   width: 100%;
+}
+
 *{
     margin: 0;
 }
